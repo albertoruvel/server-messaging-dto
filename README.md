@@ -1,0 +1,1 @@
+Needed transfer objects for all messaging projects
