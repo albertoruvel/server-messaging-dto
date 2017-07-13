@@ -1,4 +1,4 @@
-package com.messaging.dto;
+package com.messaging.dto.push;
 
 public class PushNotificationRequest {
     private String token;

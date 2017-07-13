@@ -1,4 +1,4 @@
-package com.messaging.dto;
+package com.messaging.dto.email;
 
 import java.util.List;
 

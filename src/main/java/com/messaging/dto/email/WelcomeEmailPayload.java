@@ -1,4 +1,4 @@
-package com.messaging.dto;
+package com.messaging.dto.email;
 
 public class WelcomeEmailPayload {
     private String userId;

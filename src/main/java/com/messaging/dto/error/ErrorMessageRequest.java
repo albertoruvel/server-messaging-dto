@@ -1,4 +1,4 @@
-package com.messaging.dto;
+package com.messaging.dto.error;
 
 public class ErrorMessageRequest {
     private String body;
