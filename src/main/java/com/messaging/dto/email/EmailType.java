@@ -3,7 +3,9 @@ package com.messaging.dto.email;
 public enum EmailType {
     ERROR("error_email"),
     USER_REGISTRATION("user_registration_email"),
-    CONTACT_MESSAGE_REPLY("contact_message_reply_email");
+    CONTACT_MESSAGE_REPLY("contact_message_reply_email"),
+    REQUESTED_FRIENDSHIP("requested_friendship_email"),
+    CONTACT_MESSAGE("contact_message_email");
 
     String type;
     EmailType(String type){
@@ -22,6 +24,10 @@ public enum EmailType {
             return USER_REGISTRATION;
         else if(value.equals(CONTACT_MESSAGE_REPLY.type))
             return CONTACT_MESSAGE_REPLY;
+        else if(value.equals(REQUESTED_FRIENDSHIP.type))
+            return REQUESTED_FRIENDSHIP;
+        else if(value.equals(CONTACT_MESSAGE.type))
+            return CONTACT_MESSAGE;
         else return null;
     }
 }

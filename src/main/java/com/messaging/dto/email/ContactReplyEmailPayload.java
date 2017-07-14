@@ -1,23 +1,18 @@
 package com.messaging.dto.email;
 
 public class ContactReplyEmailPayload {
-    private String email;
+    private String recipientName;
     private String body;
-
-    public ContactReplyEmailPayload(String email, String body) {
-        this.email = email;
-        this.body = body;
-    }
 
     public ContactReplyEmailPayload() {
     }
 
-    public String getEmail() {
-        return email;
+    public String getRecipientName() {
+        return recipientName;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setRecipientName(String recipientName) {
+        this.recipientName = recipientName;
     }
 
     public String getBody() {
